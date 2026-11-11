@@ -1,0 +1,149 @@
+{
+  "file": "bdpprog",
+  "sha256": "eea484e39b9738becc0891415a08e3e28a57c2bb1c99402d1fe2cf1f53fbbdbb",
+  "size": 16279936,
+  "machine": "EM_ARM",
+  "elf_class": 32,
+  "elf_flags": 83886082,
+  "strings": [
+    {
+      "text": "Call Linux shell",
+      "file_offset": 13814971,
+      "va": 13847739,
+      "pointer_references": [
+        {
+          "file_offset": 16160340,
+          "va": 16225876
+        }
+      ]
+    },
+    {
+      "text": "Usage: system <cmd>",
+      "file_offset": 13812030,
+      "va": 13844798,
+      "pointer_references": [
+        {
+          "file_offset": 6592512,
+          "va": 6625280
+        }
+      ]
+    },
+    {
+      "text": "nmk2bp",
+      "file_offset": 14686264,
+      "va": 14719032,
+      "pointer_references": [
+        {
+          "file_offset": 9385520,
+          "va": 9418288
+        }
+      ]
+    },
+    {
+      "text": "\nUSB-CLI Enabled ",
+      "file_offset": 14686271,
+      "va": 14719039,
+      "pointer_references": [
+        {
+          "file_offset": 9385524,
+          "va": 9418292
+        }
+      ]
+    },
+    {
+      "text": "/dev/ttyUSB0",
+      "file_offset": 16252772,
+      "va": 16318308,
+      "pointer_references": []
+    },
+    {
+      "text": "/dev/ttyMT0",
+      "file_offset": 14687876,
+      "va": 14720644,
+      "pointer_references": []
+    },
+    {
+      "text": "/dev/ttyMT0",
+      "file_offset": 14711430,
+      "va": 14744198,
+      "pointer_references": [
+        {
+          "file_offset": 9478892,
+          "va": 9511660
+        }
+      ]
+    },
+    {
+      "text": "/dev/drvcli",
+      "file_offset": 14685217,
+      "va": 14717985,
+      "pointer_references": [
+        {
+          "file_offset": 9374040,
+          "va": 9406808
+        },
+        {
+          "file_offset": 9383372,
+          "va": 9416140
+        },
+        {
+          "file_offset": 9385556,
+          "va": 9418324
+        }
+      ]
+    }
+  ],
+  "cli_commands": [
+    {
+      "name": "system",
+      "handler_va": 6625148,
+      "row_va": 16225860,
+      "table_va": 16224468,
+      "rights": 0,
+      "parents": [
+        {
+          "name": "fm",
+          "row_va": 16224420,
+          "rights": 2
+        }
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "name": "x_cli_attach_cmd_tbl",
+      "value": 9410160,
+      "size": 56,
+      "table": ".dynsym",
+      "section": 12
+    },
+    {
+      "name": "x_strncpy",
+      "value": 9434388,
+      "size": 4,
+      "table": ".dynsym",
+      "section": 12
+    },
+    {
+      "name": "x_strlen",
+      "value": 9434436,
+      "size": 12,
+      "table": ".dynsym",
+      "section": 12
+    },
+    {
+      "name": "ipcd_exec",
+      "value": 199020,
+      "size": 0,
+      "table": ".dynsym",
+      "section": "SHN_UNDEF"
+    },
+    {
+      "name": "system",
+      "value": 199592,
+      "size": 0,
+      "table": ".dynsym",
+      "section": "SHN_UNDEF"
+    }
+  ]
+}

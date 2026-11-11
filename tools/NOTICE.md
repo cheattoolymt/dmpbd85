@@ -12,3 +12,9 @@ GPL-3.0-only; the complete license is in `COPYING`. No upstream binaries are bun
 SquashFS tools is used as an unmodified external command (4.6.1, GPL-2.0-or-later;
 see https://github.com/plougher/squashfs-tools/tree/4.6.1 and its COPYING).
 Firmware and extracted proprietary content are not licensed by this repository.
+
+`inspect_elf.py` is new project code under GPL-3.0-only. Optional analysis
+libraries are external dependencies, not copied into this repository:
+[Capstone 5.0.9](https://github.com/capstone-engine/capstone) (BSD license) and
+[pyelftools 0.33](https://github.com/eliben/pyelftools) (public domain, with the
+upstream LICENSE describing its licenses). See `requirements-static.txt`.

@@ -51,8 +51,9 @@ def analyze(data, out=None):
         for index in range(count):
             off = pit + hdrlen + index * stride
             name = region(off, 16).split(b'\0')[0].decode('ascii')
-            pid, flags, dst, length = unpack('<4I', off + 16)
-            parts.append(dict(name=name, id=pid, flags=flags, nand_offset=dst, nand_size=length))
+            pid, flags, dst, length, enc_size, clear_size = unpack('<6I', off + 16)
+            parts.append(dict(name=name, id=pid, flags=flags, nand_offset=dst, nand_size=length, mtd_crypt=bool(flags & 0x01000000),
+                              encrypted_bytes_per_unit=enc_size, clear_bytes_per_unit=clear_size))
         if region(bit, 20) != bytes.fromhex('cdab3085') * 5:
             raise ValueError('invalid BIT magic')
         objects = []

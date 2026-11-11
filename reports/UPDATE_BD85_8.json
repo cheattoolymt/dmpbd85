@@ -16,161 +16,230 @@
           "id": 1,
           "flags": 24,
           "nand_offset": 0,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_1",
           "id": 2,
           "flags": 56,
           "nand_offset": 2097152,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_2",
           "id": 3,
           "flags": 32,
           "nand_offset": 5242880,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_1",
           "id": 4,
           "flags": 72,
           "nand_offset": 8388608,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_2",
           "id": 5,
           "flags": 88,
           "nand_offset": 9437184,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_1",
           "id": 6,
           "flags": 104,
           "nand_offset": 10485760,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_2",
           "id": 7,
           "flags": 120,
           "nand_offset": 11534336,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_1",
           "id": 8,
           "flags": 136,
           "nand_offset": 12582912,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_2",
           "id": 9,
           "flags": 152,
           "nand_offset": 14680064,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_test_data",
           "id": 10,
           "flags": 168,
           "nand_offset": 16777216,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_parameters",
           "id": 11,
           "flags": 184,
           "nand_offset": 18874368,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_power_curve",
           "id": 12,
           "flags": 200,
           "nand_offset": 20971520,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_1",
           "id": 13,
           "flags": 216,
           "nand_offset": 23068672,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_2",
           "id": 14,
           "flags": 232,
           "nand_offset": 26214400,
-          "nand_size": 18874368
+          "nand_size": 18874368,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "initrd_1",
           "id": 15,
           "flags": 248,
           "nand_offset": 45088768,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_normal_1",
           "id": 16,
           "flags": 8456,
           "nand_offset": 48234496,
-          "nand_size": 157286400
+          "nand_size": 157286400,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_enc_it_1",
           "id": 17,
           "flags": 16785688,
           "nand_offset": 205520896,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": true,
+          "encrypted_bytes_per_unit": 2048,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "upg_status",
           "id": 18,
           "flags": 296,
           "nand_offset": 207618048,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_logo",
           "id": 19,
           "flags": 312,
           "nand_offset": 209715200,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_param",
           "id": 20,
           "flags": 328,
           "nand_offset": 211812352,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "log_raw",
           "id": 21,
           "flags": 344,
           "nand_offset": 213909504,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi0",
           "id": 22,
           "flags": 12648,
           "nand_offset": 214958080,
-          "nand_size": 41943040
+          "nand_size": 41943040,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi_boot",
           "id": 23,
           "flags": 5652856,
           "nand_offset": 214958080,
-          "nand_size": 33554432
+          "nand_size": 33554432,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         }
       ],
       "objects": [
@@ -414,161 +483,230 @@
           "id": 1,
           "flags": 24,
           "nand_offset": 0,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_1",
           "id": 2,
           "flags": 56,
           "nand_offset": 2097152,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_2",
           "id": 3,
           "flags": 32,
           "nand_offset": 5242880,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_1",
           "id": 4,
           "flags": 72,
           "nand_offset": 8388608,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_2",
           "id": 5,
           "flags": 88,
           "nand_offset": 9437184,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_1",
           "id": 6,
           "flags": 104,
           "nand_offset": 10485760,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_2",
           "id": 7,
           "flags": 120,
           "nand_offset": 11534336,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_1",
           "id": 8,
           "flags": 136,
           "nand_offset": 12582912,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_2",
           "id": 9,
           "flags": 152,
           "nand_offset": 14680064,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_test_data",
           "id": 10,
           "flags": 168,
           "nand_offset": 16777216,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_parameters",
           "id": 11,
           "flags": 184,
           "nand_offset": 18874368,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_power_curve",
           "id": 12,
           "flags": 200,
           "nand_offset": 20971520,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_1",
           "id": 13,
           "flags": 216,
           "nand_offset": 23068672,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_2",
           "id": 14,
           "flags": 232,
           "nand_offset": 26214400,
-          "nand_size": 18874368
+          "nand_size": 18874368,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "initrd_1",
           "id": 15,
           "flags": 248,
           "nand_offset": 45088768,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_normal_1",
           "id": 16,
           "flags": 8456,
           "nand_offset": 48234496,
-          "nand_size": 157286400
+          "nand_size": 157286400,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_enc_it_1",
           "id": 17,
           "flags": 16785688,
           "nand_offset": 205520896,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": true,
+          "encrypted_bytes_per_unit": 2048,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "upg_status",
           "id": 18,
           "flags": 296,
           "nand_offset": 207618048,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_logo",
           "id": 19,
           "flags": 312,
           "nand_offset": 209715200,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_param",
           "id": 20,
           "flags": 328,
           "nand_offset": 211812352,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "log_raw",
           "id": 21,
           "flags": 344,
           "nand_offset": 213909504,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi0",
           "id": 22,
           "flags": 12648,
           "nand_offset": 214958080,
-          "nand_size": 94371840
+          "nand_size": 94371840,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi_boot",
           "id": 23,
           "flags": 5652856,
           "nand_offset": 214958080,
-          "nand_size": 67108864
+          "nand_size": 67108864,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         }
       ],
       "objects": [
@@ -812,175 +950,250 @@
           "id": 1,
           "flags": 24,
           "nand_offset": 0,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_1",
           "id": 2,
           "flags": 56,
           "nand_offset": 2097152,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_2",
           "id": 3,
           "flags": 32,
           "nand_offset": 5242880,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_1",
           "id": 4,
           "flags": 72,
           "nand_offset": 8388608,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_2",
           "id": 5,
           "flags": 88,
           "nand_offset": 9437184,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_1",
           "id": 6,
           "flags": 104,
           "nand_offset": 10485760,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_2",
           "id": 7,
           "flags": 120,
           "nand_offset": 11534336,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_1",
           "id": 8,
           "flags": 136,
           "nand_offset": 12582912,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_2",
           "id": 9,
           "flags": 152,
           "nand_offset": 14680064,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_test_data",
           "id": 10,
           "flags": 168,
           "nand_offset": 16777216,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_parameters",
           "id": 11,
           "flags": 184,
           "nand_offset": 18874368,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_power_curve",
           "id": 12,
           "flags": 200,
           "nand_offset": 20971520,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_1",
           "id": 13,
           "flags": 216,
           "nand_offset": 23068672,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_2",
           "id": 14,
           "flags": 232,
           "nand_offset": 26214400,
-          "nand_size": 18874368
+          "nand_size": 18874368,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "initrd_1",
           "id": 15,
           "flags": 248,
           "nand_offset": 45088768,
-          "nand_size": 3145728
+          "nand_size": 3145728,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_normal_1",
           "id": 16,
           "flags": 8456,
           "nand_offset": 48234496,
-          "nand_size": 157286400
+          "nand_size": 157286400,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_enc_it_1",
           "id": 17,
           "flags": 16785688,
           "nand_offset": 205520896,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": true,
+          "encrypted_bytes_per_unit": 2048,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "upg_status",
           "id": 18,
           "flags": 296,
           "nand_offset": 207618048,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_logo",
           "id": 19,
           "flags": 312,
           "nand_offset": 209715200,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_param",
           "id": 20,
           "flags": 328,
           "nand_offset": 211812352,
-          "nand_size": 2097152
+          "nand_size": 2097152,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "log_raw",
           "id": 21,
           "flags": 344,
           "nand_offset": 213909504,
-          "nand_size": 1048576
+          "nand_size": 1048576,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi0",
           "id": 22,
           "flags": 12648,
           "nand_offset": 214958080,
-          "nand_size": 94371840
+          "nand_size": 94371840,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi_boot",
           "id": 23,
           "flags": 5652856,
           "nand_offset": 214958080,
-          "nand_size": 67108864
+          "nand_size": 67108864,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi1",
           "id": 24,
           "flags": 12680,
           "nand_offset": 309329920,
-          "nand_size": 710934528
+          "nand_size": 710934528,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "BUDA",
           "id": 25,
           "flags": 5783960,
           "nand_offset": 309329920,
-          "nand_size": 666894336
+          "nand_size": 666894336,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         }
       ],
       "objects": [
@@ -1224,175 +1437,250 @@
           "id": 1,
           "flags": 24,
           "nand_offset": 0,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_1",
           "id": 2,
           "flags": 56,
           "nand_offset": 4194304,
-          "nand_size": 6291456
+          "nand_size": 6291456,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "part_info_2",
           "id": 3,
           "flags": 32,
           "nand_offset": 10485760,
-          "nand_size": 6291456
+          "nand_size": 6291456,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_1",
           "id": 4,
           "flags": 72,
           "nand_offset": 16777216,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "mac_addr_2",
           "id": 5,
           "flags": 88,
           "nand_offset": 20971520,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_1",
           "id": 6,
           "flags": 104,
           "nand_offset": 25165824,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "key_block_2",
           "id": 7,
           "flags": 120,
           "nand_offset": 29360128,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_1",
           "id": 8,
           "flags": 136,
           "nand_offset": 33554432,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_bin_2",
           "id": 9,
           "flags": 152,
           "nand_offset": 37748736,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_test_data",
           "id": 10,
           "flags": 168,
           "nand_offset": 41943040,
-          "nand_size": 8388608
+          "nand_size": 8388608,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_parameters",
           "id": 11,
           "flags": 184,
           "nand_offset": 50331648,
-          "nand_size": 8388608
+          "nand_size": 8388608,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fe_power_curve",
           "id": 12,
           "flags": 200,
           "nand_offset": 58720256,
-          "nand_size": 8388608
+          "nand_size": 8388608,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_1",
           "id": 13,
           "flags": 216,
           "nand_offset": 67108864,
-          "nand_size": 6291456
+          "nand_size": 6291456,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "kernel_2",
           "id": 14,
           "flags": 232,
           "nand_offset": 73400320,
-          "nand_size": 18874368
+          "nand_size": 18874368,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "initrd_1",
           "id": 15,
           "flags": 248,
           "nand_offset": 92274688,
-          "nand_size": 6291456
+          "nand_size": 6291456,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_normal_1",
           "id": 16,
           "flags": 8456,
           "nand_offset": 98566144,
-          "nand_size": 209715200
+          "nand_size": 209715200,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "rootfs_enc_it_1",
           "id": 17,
           "flags": 16785688,
           "nand_offset": 308281344,
-          "nand_size": 12582912
+          "nand_size": 12582912,
+          "mtd_crypt": true,
+          "encrypted_bytes_per_unit": 2048,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "upg_status",
           "id": 18,
           "flags": 296,
           "nand_offset": 320864256,
-          "nand_size": 8388608
+          "nand_size": 8388608,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_logo",
           "id": 19,
           "flags": 312,
           "nand_offset": 329252864,
-          "nand_size": 8388608
+          "nand_size": 8388608,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "fast_init_param",
           "id": 20,
           "flags": 328,
           "nand_offset": 337641472,
-          "nand_size": 8388608
+          "nand_size": 8388608,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "log_raw",
           "id": 21,
           "flags": 344,
           "nand_offset": 346030080,
-          "nand_size": 4194304
+          "nand_size": 4194304,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi0",
           "id": 22,
           "flags": 12648,
           "nand_offset": 350224384,
-          "nand_size": 167772160
+          "nand_size": 167772160,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi_boot",
           "id": 23,
           "flags": 5652856,
           "nand_offset": 350224384,
-          "nand_size": 104857600
+          "nand_size": 104857600,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "ubi1",
           "id": 24,
           "flags": 12680,
           "nand_offset": 517996544,
-          "nand_size": 1572864000
+          "nand_size": 1572864000,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         },
         {
           "name": "BUDA",
           "id": 25,
           "flags": 5783960,
           "nand_offset": 517996544,
-          "nand_size": 1363148800
+          "nand_size": 1363148800,
+          "mtd_crypt": false,
+          "encrypted_bytes_per_unit": 0,
+          "clear_bytes_per_unit": 0
         }
       ],
       "objects": [
