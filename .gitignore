@@ -1,0 +1,6 @@
+*.zip
+*.FRM
+*.bin
+*.squashfs
+__pycache__/
+work/
