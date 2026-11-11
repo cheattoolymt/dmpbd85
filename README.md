@@ -7,6 +7,7 @@ Linuxカーネルと通常rootfsの抽出に成功した。実機のシェル取
 
 - [解析結果・具体的な再現方法](docs/firmware-format-ja.md)
 - [未使用6ピン端子・実カーネルのUART状態・受信手順](docs/six-pin-uart-ja.md)
+- [Uno R3でF端子の変化間隔を測るスケッチと配線](tools/uart-edge-meter/README-ja.md)
 - [起動ログのHKswitchと更新ファイルの照合](docs/hkswitch-ja.md)
 - [実機情報・UART・USB CLIの追加解析](docs/hardware-and-access-ja.md)
 - [全PIT/BITテーブルと検証結果（JSON）](reports/UPDATE_BD85_8.json)
