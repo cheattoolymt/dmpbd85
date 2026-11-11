@@ -1,0 +1,136 @@
+{
+  "raw_sha256": "edf7645f986e4b85105caaab3529326b4461a8809dddcf119444befb31997b7d",
+  "raw_size": 4541216,
+  "elf_sha256": "7fba69166649877b03de4702748a3c61c743a1605f07c0508b75a2e7b5018e5a",
+  "mapping_verified_byte_for_byte": true,
+  "load_va": 3221258240,
+  "symbol_count": 27677,
+  "bss_start": 3225799456,
+  "bss_stop": 3225946424,
+  "note": "Recovered symbol addresses and image initial state; not a running-device measurement.",
+  "symbols": [
+    {
+      "name": "_text",
+      "found": true,
+      "va": 3221258240,
+      "storage": "raw-kernel",
+      "raw_offset": 0,
+      "first_32_bytes_sha256": "0767f90d486664fe0b20b43855120b3c1a6dc5b5c2e9d05ffbc236f0c8453219"
+    },
+    {
+      "name": "_stext",
+      "found": true,
+      "va": 3221258656,
+      "storage": "raw-kernel",
+      "raw_offset": 416,
+      "first_32_bytes_sha256": "9cd5e5310cfb4f178ca361119fba3eff1a8b1dfac81de4e54f39030e3f4e5b02"
+    },
+    {
+      "name": "__bss_start",
+      "found": true,
+      "va": 3225799456,
+      "storage": "original-bss",
+      "zero_initialized": true
+    },
+    {
+      "name": "__bss_stop",
+      "found": true,
+      "va": 3225946424
+    },
+    {
+      "name": "g_u4disable_log",
+      "found": true,
+      "va": 3225921008,
+      "storage": "original-bss",
+      "zero_initialized": true
+    },
+    {
+      "name": "disable_print",
+      "found": true,
+      "va": 3225821424,
+      "storage": "original-bss",
+      "zero_initialized": true
+    },
+    {
+      "name": "g_enable_log",
+      "found": true,
+      "va": 3225921204,
+      "storage": "original-bss",
+      "zero_initialized": true
+    },
+    {
+      "name": "_disable_ctrlc",
+      "found": true,
+      "va": 3225921004,
+      "storage": "original-bss",
+      "zero_initialized": true
+    },
+    {
+      "name": "_disable_rx",
+      "found": true,
+      "va": 3225921208,
+      "storage": "original-bss",
+      "zero_initialized": true
+    },
+    {
+      "name": "g_gpio_control_log",
+      "found": false
+    },
+    {
+      "name": "_mt85xx_uart_console_write",
+      "found": true,
+      "va": 3223351612,
+      "storage": "raw-kernel",
+      "raw_offset": 2093372,
+      "first_32_bytes_sha256": "e3e3194ab8251677b74d5c04fea51296eb9b6a4e0e1c8c103e510247e971b253"
+    },
+    {
+      "name": "_mt85xx_uart_console_setup",
+      "found": true,
+      "va": 3225576572,
+      "storage": "raw-kernel",
+      "raw_offset": 4318332,
+      "first_32_bytes_sha256": "fb100615d73d5d2e929bd68bad971f644bd697d8f5ed0e58c011a5b59ef51315"
+    },
+    {
+      "name": "_mt85xx_rx_chars",
+      "found": true,
+      "va": 3223346692,
+      "storage": "raw-kernel",
+      "raw_offset": 2088452,
+      "first_32_bytes_sha256": "2e874aad9ffb8303d9b88879cfcd837741f32627a45d22a4a5fb04141b9e94ed"
+    },
+    {
+      "name": "sys_setlogopen",
+      "found": true,
+      "va": 3223352252,
+      "storage": "raw-kernel",
+      "raw_offset": 2094012,
+      "first_32_bytes_sha256": "84a7a8a1ac5b7fb4d70e46a53a5c0fcd86e75d4884cc2d49b1b96c3bf0e9f76c"
+    },
+    {
+      "name": "uart_disable_ctrlc",
+      "found": true,
+      "va": 3223346564,
+      "storage": "raw-kernel",
+      "raw_offset": 2088324,
+      "first_32_bytes_sha256": "06d9452f0641a341fd6f944244782ff03a6c37982e74e49954a1a6721fe234a5"
+    },
+    {
+      "name": "_mt85xx_late_console_init",
+      "found": true,
+      "va": 3225576524,
+      "storage": "raw-kernel",
+      "raw_offset": 4318284,
+      "first_32_bytes_sha256": "278a7937b69804a2da3a5145b4dddb9f87c3f5dbcb6e073f7bd720db70e06667"
+    },
+    {
+      "name": "_mt85xx_uart_reg",
+      "found": true,
+      "va": 3225743260,
+      "storage": "raw-kernel",
+      "raw_offset": 4485020,
+      "first_32_bytes_sha256": "8ae25677d9526eee0ccbd3edb1abb133f0760e258d3f662dfe7389459234c789"
+    }
+  ]
+}

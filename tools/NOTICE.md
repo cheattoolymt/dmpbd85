@@ -18,3 +18,9 @@ libraries are external dependencies, not copied into this repository:
 [Capstone 5.0.9](https://github.com/capstone-engine/capstone) (BSD license) and
 [pyelftools 0.33](https://github.com/eliben/pyelftools) (public domain, with the
 upstream LICENSE describing its licenses). See `requirements-static.txt`.
+
+`kernel_uart_report.py` and `capture_uart.py` are new project code under
+GPL-3.0-only. Kernel symbol recovery uses unmodified external
+[vmlinux-to-elf 1.4.0](https://github.com/marin-m/vmlinux-to-elf); its installed
+wheel includes the GNU GPL v3 license. Neither the tool's sources nor its
+binaries are bundled here. `capture_uart.py` uses Python's standard library.

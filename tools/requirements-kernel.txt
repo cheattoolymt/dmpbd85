@@ -1,0 +1,2 @@
+# Optional: reconstruct a symbolized ELF from the extracted raw kernel.
+vmlinux-to-elf==1.4.0
